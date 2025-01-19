@@ -11,7 +11,7 @@ def url_shorter(url: str) -> str:
     except:
         return "error"
 
-if __name__ == "__main__":
+def main():
     if len(sys.argv) != 3 or sys.argv[1] != "-u":
         print(">Invalid input.\n>Usage: py main.py -u <link>")
         sys.exit(1)
@@ -21,3 +21,6 @@ if __name__ == "__main__":
         print(">Error: URL Format Error or Something Went Wrong")
     else:
         print(f">Shorted URL: https://jli.li/{id}")
+        
+if __name__ == "__main__":
+    main()
