@@ -1,25 +1,12 @@
 
-# The Simple URL Shorter
-
-powered by https://jli.li
-
-
-
-## Usage
-
-```text
-python main.py -u <LINK>
-```
-Link format: https://example.com
+# Mullvad Date Checker
 
 ## Requirements
 Manual installation:
-- Python
 ```txt
 pip install -r requirements.txt
 ```
-
-このプログラムはプログラミングの練習目的で作成されました。
-利用しにくい場合が高いです。
-私は初学者です。
+## Warning
+Use of this program is entirely at your own risk. We will not be liable for any damages whatsoever resulting from the use of this program. 
+Please use this program in strict compliance with the laws of your locality and the Terms of Service.
 
